@@ -1,0 +1,119 @@
+Esta guia esta basada en https://github.com/n0x1u5/PATH-RedTeam-Hacking/blob/main/FILE
+
+### Cómo Aprender Sobre Red Team / Hacking Ético
+________________________________________________
+
+#### Certificaciones Destacadas en Hacking Ético/Red Team
+
+**Todos los detalles en:** [Guía de Certificaciones de Seguridad] (https://pauljerimy.com/security-certification-roadmap/)
+
+- **Nivel Básico**
+  - CPHE
+  - CEH
+  - CSIO
+  
+- **Nivel Intermedio**
+  - eJPTv2
+  - PJTP
+  - CEH Master
+
+- **Nivel Avanzado**
+  - OSCP
+  - eCPPTv2 
+- **Nivel Extremo**
+  - eCPPTX
+  - eWPTX
+
+#### Prácticas Recomendadas
+
+- TryHackMe 
+- HackTheBox
+- VulnHub
+
+**Más información en:** 
+
+Red Team Journal: Un sitio dedicado a la práctica del Red Teaming, que ofrece artículos, estudios de caso y recursos. https://redteamjournal.com
+
+KitPloit - PenTest & Hacking Tools: Un blog que se actualiza regularmente con las últimas herramientas de pentesting y hacking. https://www.kitploit.com
+
+Red Canary: Blog de una compañía que ofrece servicios de seguridad y que publica análisis de amenazas, estudios de caso y mejores prácticas de seguridad. https://redcanary.com/resources/
+
+MITRE ATT&CK: Una base de conocimientos globalmente accesible de tácticas y técnicas adversarias basada en observaciones del mundo real. Es esencial para cualquier profesional de Red Team. https://attack.mitre.org
+
+PentesterLab: Un sitio web que ofrece ejercicios prácticos y lecciones para aprender pentesting y seguridad web. https://pentesterlab.com
+
+Hack The Box: Una plataforma en línea para probar y mejorar tus habilidades en pentesting y ciberseguridad. https://www.hackthebox.com
+
+OWASP: La Open Web Application Security Project es una fundación sin fines de lucro que trabaja para mejorar la seguridad del software. Su sitio ofrece numerosos recursos y guías. https://owasp.org
+
+Reddit - r/redteamsec: Un subreddit dedicado a la discusión sobre Red Team, ciberseguridad y pentesting. https://www.reddit.com/r/redteamsec/
+
+#### Cursos / Academias
+
+- eLearnSecurity
+- IgniteTechnologies
+- cyberHunterAcademy
+- TheSecuritySentinel
+- Udemy
+- Comunix
+- Securizame
+- HackBySecurity
+- pentesteracademy
+- MasterMind
+
+
+#### Tryhackme Según las Fases de Pentesting
+
+- **Reconocimiento/Enumeración**
+  - Módulo de Seguridad de Red
+
+- **Explotación**
+  - Módulos de Amenazas Recientes, Fundamentos de Explotación en Windows, Fundamentos de Explotación de Red, Fundamentos del Equipo Rojo, Investigación de Vulnerabilidades
+
+- **Active Directory**
+  - Compromiso del Active Directory, Emulación de Amenazas, Holo, Throwback
+
+- **Web**
+  - Módulo BupSuite, Evasión de Autenticación, Owasp Top 10
+
+- **Post-Explotación**
+  - Módulos de Shells y Escalada de Privilegios, Post Compromiso
+		 
+- **Pivoting**
+  - Borderlands, Unbaked Pie, Wreath, Movimiento Lateral y Pivoting, Ligolo-ng
+
+### HackTheBox 
+
+A continuación, muestro algunas máquinas importantes en HTB que son destacadas por la comunidad por ofrecer un aprendizaje significativo en las diferentes fases del pentesting:
+
+1. Reconocimiento / Enumeración
+
+- Blue: Ideal para aprender sobre el reconocimiento y la explotación de vulnerabilidades conocidas en sistemas Windows (específicamente, EternalBlue).
+
+- Shocker: Enfocada en la enumeración de servicios y la explotación de vulnerabilidades en sistemas Unix/Linux, como Shellshock.
+
+2. Escaneo / Análisis de Vulnerabilidades
+
+- Lame: Una buena máquina para practicar el escaneo y análisis de vulnerabilidades en servicios comunes como SMB y vsftpd.
+
+- Legacy: Útil para practicar la identificación y explotación de vulnerabilidades en servicios Windows, como los relacionados con MS08-067.
+
+3. Explotación
+
+- Devel: Excelente para aprender la explotación de configuraciones inseguras en servicios FTP y el uso de payloads de Meterpreter en un entorno Windows.
+
+- Beep: Ofrece una amplia gama de servicios web para practicar diferentes técnicas de explotación, incluyendo vulnerabilidades en Elastix.
+
+
+4. Post-Explotación
+
+- Grandpa / Granny: Ambas máquinas son buenas para practicar la escalada de privilegios en Windows, explotando vulnerabilidades web para obtener un shell inicial y luego buscando formas de obtener privilegios de administrador.
+
+- Bashed: Enfocada en la post-explotación y la escalada de privilegios a través de la explotación de scripts y configuraciones inseguras.
+
+
+Notas Importantes
+
+- Las máquinas en HTB son actualizadas y retiradas regularmente, por lo que las disponibles pueden variar.
+- Las habilidades y técnicas requeridas para cada máquina pueden abarcar múltiples fases del pentesting.
+- Participar en los foros de HTB y leer write-ups (después de resolver las máquinas) es una excelente manera de aprender diferentes enfoques y técnicas.
